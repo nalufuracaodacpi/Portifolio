@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9ebf0;
+    color: #8b5e78;
+}
+
+/* Estilo para o tema claro */
+body.claro {
+    background-color: #f9ebf0;
+    color: #8b5e78;
+}
+
+body.claro button {
+    background-color: #8b5e78;
+    color: #f9ebf0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo para o tema escuro */
+body.escuro {
+    background-color: #8b5e78;
+    color: #f9ebf0;
+}
+
+body.escuro button {
+    background-color: #f9ebf0;
+    color: #8b5e78;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #f4e3ed;
+    padding: 10px 20px;
+    
+    border-bottom: 1px solid #e0cbd3;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+    color: #8b5e78;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: palevioletred;
+    color: #8b5e78;
+    font-size: 16px;
+    font-weight: bold;
+   
+    
+}
+
+.nav-links a:hover {
+    color: palevioletred;
+}
+
+.navbar .contact-info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #8b5e78;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    text-align: center;
+    margin: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #4c1a2a;
+}
+
+.projetos-title {
+    font-size: 48px;
+    font-family: 'Cursive', serif;
+    color: #4a2d36;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.projeto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+footer a {
+    color: #4c1a2a;
+}
+
+footer a:hover {
+    color: palevioletred;
+}
